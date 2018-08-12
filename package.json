@@ -1,7 +1,7 @@
 {
-  "name": "bitcore",
+  "name": "bcore",
   "version": "5.0.0-beta.44",
-  "description": "A platform to build bitcoin and blockchain-based applications.",
+  "description": "A platform to build bitcoin core and blockchain-based applications.",
   "engines": {
     "node": ">=8.0.0"
   },
@@ -12,11 +12,11 @@
     "build-deb": "./scripts/build-deb"
   },
   "bin": {
-    "bitcore": "./bin/bitcore",
-    "bitcored": "./bin/bitcored"
+    "bcore": "./bin/bcore",
+    "bcored": "./bin/bcored"
   },
   "keywords": [
-    "bitcoin",
+    "bitcoin core",
     "transaction",
     "address",
     "p2p",
@@ -33,13 +33,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcore.git"
+    "url": "git+https://github.com/bitcoin-cored/bitcore.git"
   },
   "dependencies": {
-    "bitcore-lib": "5.0.0-beta.1",
-    "bitcore-node": "5.0.0-beta.44",
-    "insight-api": "5.0.0-beta.44",
-    "insight-ui": "bitpay/insight#v5.0.0-beta.44"
+    "bcore-lib": "git+https://github.com/bitcoin-cored/bitcore-lib.git",
+    "bcore-node": "git+https://github.com/bitcoin-cored/bitcore-node.git",
+    "insight-api": "git+https://github.com/bitcoin-cored/insight-api.git",
+    "insight-ui": "git+https://github.com/bitcoin-cored/insight.git"
   },
   "license": "MIT",
   "devDependencies": {

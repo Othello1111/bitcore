@@ -1,5 +1,5 @@
 
 
-var bitcoreTasks = require('bitcore-build');
+var bitcoredTasks = require('bcore-build');
 
-bitcoreTasks();
+bcoreTasks();
